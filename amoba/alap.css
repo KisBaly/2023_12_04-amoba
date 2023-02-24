@@ -1,0 +1,58 @@
+ body
+ {
+  background-color: black;
+  background-image: url(./smoke_2_final.mov);
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+ }
+    h1 {
+      color: white;
+      font-size: 45px;
+  }
+
+  /* 3*3 Grid */
+    #mezo1, #mezo2, #mezo3, #mezo4, #mezo5,
+    #mezo6, #mezo7, #mezo8, #mezo9 {
+      width: 80px;
+      height: 52px;
+      margin: auto;
+      border: 1px solid white;
+      border-radius: 6px;
+      font-size: 30px;
+      text-align: center;
+  }
+
+
+  #but {
+      box-sizing: border-box;
+      width: 95px;
+      height: 40px;
+      border: 1px solid white;
+      margin: auto;
+      border-radius: 4px;
+      background-color: white;
+      color: black;
+      font-size: 20px;
+      cursor: pointer;
+  }
+
+  /* Player turn space */
+  #print {
+      color: white;
+      font-size: 20px;
+  }
+
+  /* Main Container */
+  #main {
+      text-align: center;
+  }
+
+  /* Game Instruction Text */
+  #ins {
+      color: white;
+      font-size: 17px;
+  }
